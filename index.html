@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav><img src="./img/potato.svg" alt="potato logo" class="svg__logo"></nav>
+    </header>
+    <main>
+        <form class="profile__edit">
+            <label for="userImage" class="information__label">Foto de perfil</label>
+            <img src="./img/person.svg" alt="userProfileimage" id="userImagePreview" class="user__preview">
+            <input type="file" id="userImage" accept="image/*">
+            <label for="userName" class="information__label">Nombre de usuario</label>
+            <input type="text" name="userName" id="userName">
+            <label for="userPassword" class="information__label">Contraseña</label>
+            <input type="password" name="userPassword" id="userPassword">
+            <label for="userBiography" class="information__label">Biografia</label>
+            <textarea name="userBiography" id="userBiography" cols="30" rows="6"></textarea>
+            <label for="userBirthday" class="information__label">Fecha de nacimiento</label>
+            <input type="date" name="userBirthday" id="userBirthday">
+        </form>
+        <button type="button">Guardar cambios</button>
+    </main>
+    <footer>
+        <p>© 2024 Mi Empresa. Todos los derechos reservados.</p>
+        <a href="/politica-de-privacidad">Política de privacidad</a>
+        <ul>
+            <li><a href="/contacto">Contacto</a></li>
+            <li><a href="/mapa-del-sitio">Mapa del sitio</a></li>
+        </ul>
+    </footer>
+ <script src="./main.js"></script>
+</body>
+
+</html>
